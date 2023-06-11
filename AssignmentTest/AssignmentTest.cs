@@ -94,7 +94,7 @@ namespace AssignmentTest
             testRobot.IsPowered = true;
             testRobot.Run();
             Assert.AreEqual(testRobot.X, 1);
-            testRobot.Run();s
+            testRobot.Run(); s
             Assert.AreEqual(testRobot.X, 2);
         }
 
